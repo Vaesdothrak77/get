@@ -1,0 +1,170 @@
+
+.main__title {
+  margin-top: 150px;
+  font-weight: 1000;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  max-width: 426px;
+  height: 159px;
+  color: white;
+  font-size: clamp(2.5rem, 1.797rem + 3.52vw, 4.5rem);
+}
+.title {
+  line-height: 2.2rem;
+  color: white;
+  font-size: clamp(1rem, 0.75rem + 1.25vw, 1.688rem);
+  font-family: Gilroy;
+  font-weight: 600;
+  word-wrap: break-word;
+  margin-top: -30px;
+}
+
+.page {
+  background-image: url(../img/Десктоп2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+
+  /* min-height: 100vh; */
+
+  margin: 0;
+  padding: 0;
+}
+
+.page__container {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
+
+  position: relative;
+}
+
+.main__btn {
+  width: clamp(15rem, 10.604rem + 21.98vw, 27.5rem);
+  height: 76px;
+  position: relative;
+}
+.abs__btn {
+  width: 440px;
+  height: 76px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: linear-gradient(262deg, #6700fb 0%, #ff41bb 100%);
+  box-shadow: 0px 11px 19px rgba(213, 47, 205, 0.25);
+  border-radius: 100px;
+}
+.rel__btn {
+  width: 260.62px;
+  height: 21.18px;
+  left: 89.69px;
+  top: 27.41px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
+  font-family: Gilroy;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 25.56px;
+  word-wrap: break-word;
+}
+.un__title {
+  margin-top: 20px;
+  color: white;
+  font-size: clamp(1.125rem, 0.92rem + 1.02vw, 1.688rem);
+  font-family: Gilroy;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.block__market {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.market__items {
+  display: flex;
+  gap: 5%;
+  flex-direction: column;
+  max-width: 317px;
+}
+.market__item {
+  align-items: center;
+  gap: 5%;
+  display: flex;
+}
+.title__chek {
+  width: 300px;
+  height: 44px;
+  /* color: white; */
+  font-size: 20px;
+  font-family: Gilroy;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.text__chek {
+  margin-left: 55px;
+  max-width: 261px;
+  height: 44px;
+  color: rgb(161, 161, 161);
+  font-size: 16px;
+  font-family: Gilroy;
+  font-weight: 300;
+  word-wrap: break-word;
+  line-height: 1.5em;
+}
+
+.page__decore {
+}
+.decore {
+  max-width: 463px;
+  height: 472px;
+  left: 36%;
+  top: 20%;
+  bottom: 50px;
+  position: absolute;
+}
+
+.decore__items {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 0.795rem + 1.02vw, 1.563rem);
+  position: absolute;
+  top: 40%;
+  left: 76%;
+
+  /* width: 234.43px; */
+  /* height: 43px; */
+  color: rgb(161, 161, 161);
+  font-size: clamp(0.875rem, 0.784rem + 0.45vw, 1.125rem);
+  font-family: Gilroy;
+  font-weight: 400;
+  line-height: 21.78px;
+  word-wrap: break-word;
+}
+.decore__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.decore__img {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: -8%;
+  top: 4px;
+}
+
+.decore__text {
+  max-width: 351px;
+  height: 44px;
+  /* color: white; */
+  font-size: 20px;
+  font-family: Gilroy;
+  font-weight: 200;
+  word-wrap: break-word;
+}

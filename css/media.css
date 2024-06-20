@@ -1,0 +1,410 @@
+/*  --------------- 1280 ---------------- */
+@media (max-width: 1440px) {
+  .page {
+    background-image: url(../img/Планшет.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .block__market {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1280px) {
+  .page {
+    background-image: url(../img/Планшет.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .main__title {
+    line-height: 5rem;
+    margin-top: 70px;
+    margin-left: 120px;
+  }
+  .title {
+    margin-top: 0px;
+    margin-left: 120px;
+  }
+  .un__title {
+    margin-left: 120px;
+  }
+  .main__btn {
+    margin-left: 120px;
+  }
+  .block__market {
+    margin-top: -10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    margin-left: 120px;
+  }
+  .decore {
+    max-width: 450px;
+    height: 450px;
+    top: 45%;
+    left: 50%;
+  }
+  .decore__items {
+    top: 20%;
+    left: 60%;
+    width: 500px;
+  }
+  .decore__text {
+    max-width: 337px;
+    font-size: 18px;
+  }
+  .text__chek {
+    margin-top: 10px;
+  }
+}
+
+/* --------------- 768  ----------------- */
+
+@media (max-width: 768px) {
+  .main__title {
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 40px;
+    line-height: 1.2em;
+  }
+  .page {
+    background: url(../img/Планшет.png) no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .page__container {
+    position: relative;
+  }
+  .rel__btn {
+    top: 315%;
+    left: 28%;
+  }
+  .abs__btn {
+    max-width: 340px;
+    height: 50px;
+    top: 300%;
+    left: 13%;
+  }
+  .decore__items {
+    top: 25%;
+    left: 25%;
+    width: 280px;
+  }
+  .title {
+    line-height: 1.3em;
+    top: 15%;
+    left: 6%;
+    position: absolute;
+  }
+  .un__title {
+    margin-left: 150px;
+    margin-top: 220px;
+  }
+  .decore {
+    top: 25%;
+    left: 60%;
+    width: 160px;
+    height: 160px;
+  }
+  .block__market {
+    margin-left: 140px;
+  }
+  .text__chek {
+    line-height: 1.2em;
+  }
+  /* .page {
+    background-image: url(../img/Планшет.png);
+    background-size: cover;
+  }
+  .main__title {
+    margin-left: -80px;
+    margin-top: 25px;
+    line-height: 1.2em;
+  }
+  .title {
+    margin-top: 200px;
+    margin-left: -0px;
+  }
+  .un__title {
+    margin-left: 0px;
+  }
+  .main__btn {
+    margin-left: -60px;
+  }
+  .abs__btn {
+    max-width: 280px;
+    margin-left: 75px;
+  }
+  .rel__btn {
+    margin-left: 0px;
+  }
+  .block__market {
+    margin-left: -20px;
+  }
+  .decore__items {
+    top: 18%;
+    left: 29%;
+    font-size: 16px;
+    width: 300px;
+    gap: 30px;
+  }
+  .decore {
+    max-width: 300px;
+    height: 250px;
+    top: 12%;
+    left: 55%;
+  } */
+  /* .page__container {
+    align-items: center;
+  }
+
+  .decore__img {
+    margin-left: -10px;
+  } */
+}
+
+/* ------------ 650 -------------- */
+
+@media (max-width: 650px) {
+  .main__title {
+    margin-left: -40px;
+    margin-top: 5px;
+  }
+  .title {
+    margin-left: -40px;
+    margin-top: 190px;
+  }
+  .un__title {
+    margin-left: -40px;
+  }
+  .main__btn {
+    margin-left: -90px;
+  }
+  .block__market {
+    margin-left: -40px;
+  }
+  .decore__items {
+    top: 16%;
+    left: 22%;
+    font-size: 16px;
+    width: 200px;
+  }
+  .decore {
+    max-width: 300px;
+    height: 200px;
+    top: 14%;
+    left: 53%;
+  }
+
+  .page__container {
+    align-items: center;
+  }
+  .page {
+    /* width: 100%; */
+  }
+}
+
+/* ----------------- 520 -------------- */
+
+@media (max-width: 520px) {
+  .main__title {
+    margin-left: -50px;
+    margin-top: 25px;
+  }
+  .title {
+    margin-top: 190px;
+    margin-left: 30px;
+  }
+  .un__title {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .main__btn {
+    margin-left: -150px;
+    /* max-width: 280px; */
+    /* height: 50px; */
+  }
+  .block__market {
+    margin-left: 0px;
+  }
+  .decore__items {
+    top: 18%;
+  }
+  .decore {
+    max-width: 163px;
+    height: 165px;
+    top: 17%;
+    left: 60%;
+  }
+  .abs__btn {
+    left: -3%;
+  }
+}
+
+@media (max-width: 450px) {
+  .main__title {
+    margin-left: -110px;
+    margin-top: 50px;
+    font-size: 40px;
+    line-height: 1.2em;
+  }
+  .page {
+    background: url(../img/Телефон.png) no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .page__container {
+    position: relative;
+  }
+  .rel__btn {
+    top: 315%;
+    left: 30%;
+  }
+  .abs__btn {
+    max-width: 340px;
+    height: 50px;
+    top: 300%;
+    left: 12%;
+  }
+  .decore__items {
+    top: 25%;
+    left: 20%;
+    width: 280px;
+  }
+  .title {
+    line-height: 1.3em;
+    top: -3%;
+    left: 6%;
+    position: absolute;
+  }
+  .un__title {
+    margin-left: -20px;
+    margin-top: 220px;
+  }
+  .decore {
+    top: 25%;
+    left: 67%;
+    width: 140px;
+    height: 140px;
+  }
+  .block__market {
+    margin-left: -20px;
+  }
+  .text__chek {
+    line-height: 1.2em;
+  }
+}
+
+@media (max-width: 320px) {
+  /* .page {
+    background: url(/img/Телефон.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .abs__btn {
+    max-width: 280px;
+    height: 50px;
+    top: 0%;
+    left: -8%;
+  }
+  .rel__btn {
+    top: 15%;
+    left: 30%;
+  }
+  .main__title {
+    margin-left: -70px;
+    font-size: 35px;
+    line-height: 1.5em;
+  }
+  .decore__items {
+    width: 200px;
+    font-size: 14px;
+    left: 10%;
+    gap: 28px;
+  }
+ 
+  .decore__img {
+    margin-left: -1px;
+  }
+  .decore {
+    top: 13%;
+    left: 53%;
+  }
+  .title {
+    margin-top: 190px;
+    margin-left: 10px;
+  }
+  .un__title {
+    margin-top: 0;
+  }
+  .block__market {
+    margin-left: 5px;
+  } */
+
+  .main__title {
+    margin-left: -40px;
+    margin-top: 50px;
+    font-size: 40px;
+    line-height: 1.2em;
+  }
+  .page {
+    background: url(../img/Телефон.png) no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .page__container {
+    position: relative;
+  }
+  .rel__btn {
+    top: 350%;
+    left: 30%;
+  }
+  .abs__btn {
+    max-width: 300px;
+    height: 50px;
+    top: 335%;
+    left: 18%;
+  }
+  .decore__items {
+    top: 25%;
+    left: 20%;
+    width: 200px;
+  }
+  .title {
+    line-height: 1.3em;
+    top: -3%;
+    left: 0%;
+    position: absolute;
+  }
+  .un__title {
+    margin-top: 230px;
+  }
+  .decore {
+    top: 25%;
+    left: 67%;
+    width: 100px;
+    height: 100px;
+  }
+  .block__market {
+    margin-top: 10px;
+    margin-left: -0px;
+  }
+}
